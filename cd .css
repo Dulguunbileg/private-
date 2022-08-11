@@ -1,29 +1,29 @@
 .cont {
   margin: 0px;
-  background-color: green;
+  background-color: rgb(0, 0, 0);
   width: 100vw;
   height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  animation: duk2 10s linear 0.19s infinite;
+  animation: duk2 10s linear infinite;
 }
 @keyframes duk2 {
   0% {
-    background-color: rgb(215, 16, 16);
+    background-color: rgba(0, 0, 0, 0.911);
   }
   25% {
-    background-color: rgba(198, 128, 35, 0.805);
+    background-color: rgba(0, 0, 0, 0.805);
   }
   50% {
-    background-color: rgba(179, 153, 21, 0.765);
+    background-color: rgba(0, 0, 0, 0.765);
   }
   75% {
-    background-color: rgba(139, 197, 14, 0.582);
+    background-color: rgba(0, 0, 0, 0.913);
   }
   100% {
-    background-color: rgba(87, 29, 195, 0.601);
+    background-color: rgba(0, 0, 0, 0.601);
   }
 }
 .cont1 {
@@ -31,7 +31,7 @@
   height: 865px;
   border-radius: 50%;
   background-color: green;
-  box-shadow: 10px 20px 30px rgb(3, 116, 3);
+  box-shadow: 5px 5px 50px 70px rgb(3, 116, 3);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -41,189 +41,168 @@
   width: 850px;
   height: 850px;
   border-radius: 50%;
-  background-color: green;
-  box-shadow: 10px 20px 30px rgb(3, 119, 3);
+  background-color: rgb(2, 82, 2);
+  box-shadow: 5px 5px 50px 70px rgb(3, 113, 3);
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: center;   
   animation: 10s duk3 linear infinite;
 }
-@keyframes duk3 {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
 .cont3 {
-  width: 840px;
-  height: 840px;
+  width: 830px;
+  height: 830px;
   border-radius: 50%;
   background-color: green;
-  box-shadow: 10px 20px 30px rgb(3, 123, 3);
+  box-shadow: 5px 5px 50px 70 rgb(4, 97, 4);
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   animation: 10s duk4 linear infinite;
 }
-@keyframes duk4 {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+
 .cont4 {
-  width: 830px;
-  height: 830px;
+  width: 810px;
+  height: 810px;
+
   border-radius: 50%;
   background-color: green;
-  box-shadow: 10px 20px 30px rgb(3, 126, 3);
+  box-shadow: 5px 5px 50px 60px rgb(3, 67, 3);
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   animation: 10s duk5 linear infinite;
 }
-@keyframes duk5 {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+
 .cont5 {
-  width: 820px;
-  height: 820px;
+  width: 800px;
+  height: 800px;
+
   border-radius: 50%;
   background-color: green;
-  box-shadow: 10px 20px 30px rgba(3, 129, 3);
+  box-shadow: 5px 5px 50px 60px rgb(2, 57, 2);
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 .cont6 {
-  width: 810px;
-  height: 810px;
+  width: 790px;
+  height: 790px;
   border-radius: 50%;
+
   background-color: green;
-  box-shadow: 10px 20px 30px rgba(3, 132, 3);
+  box-shadow: 0px 0px 0px 60px rgb(4, 56, 4);
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 .cont7 {
-  width: 800px;
-  height: 800px;
+  width: 780px;
+  height: 780px;
+
   border-radius: 50%;
   background-color: green;
-  box-shadow: 10px 20px 30px rgb(3, 135, 3);
+  box-shadow: 5px 5px 30px 60px rgb(1, 38, 1);
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 .cont8 {
-  width: 790px;
-  height: 790px;
+  width: 770px;
+  height: 770px;
+  border-radius: 50%;
   border-radius: 50%;
   background-color: green;
-  box-shadow: 10px 20px 30px rgb(3, 138, 3);
+  box-shadow: 5px 5px 30px 60px rgb(2, 41, 2);
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 .cont9 {
-  width: 780px;
-  height: 780px;
+  width: 760px;
+  height: 760px;
+  border-radius: 50%;
   border-radius: 50%;
   background-color: green;
-  box-shadow: 10px 20px 30px rgb(3, 141, 3);
+  box-shadow: 5px 5px 30px 60px rgb(3, 47, 3);
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 .cont10 {
-  width: 770px;
-  height: 770px;
+  width: 750px;
+  height: 750px;
+  border-radius: 50%;
   border-radius: 50%;
   background-color: green;
-  box-shadow: 10px 20px 30px rgb(3, 144, 3);
+  box-shadow: 5px 5px 30px 50px rgb(4, 50, 4);
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 .cont11 {
-  width: 760px;
-  height: 760px;
+  width: 740px;
+  height: 740px;
+  border-radius: 50%;
   border-radius: 50%;
   background-color: green;
-  box-shadow: 10px 20px 30px rgb(3, 145, 3);
+  box-shadow: 5px 5px 30px 50px rgb(2, 34, 2);
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 .cont12 {
-  width: 750px;
-  height: 750px;
+  width: 730px;
+  height: 730px;
+  border-radius: 50%;
   border-radius: 50%;
   background-color: green;
-  box-shadow: 10px 20px 30px rgb(3, 148, 3);
+  box-shadow: 5px 5px 30px 50px rgb(3, 36, 3);
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 .cont13 {
-  width: 740px;
-  height: 740px;
+  width: 720px;
+  height: 720px;
+  border-radius: 50%;
   border-radius: 50%;
   background-color: green;
-  box-shadow: 10px 20px 30px rgb(3, 151, 3);
+  box-shadow: 5px 5px 30px 50px rgb(1, 42, 1);
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 .cont14 {
-  width: 730px;
-  height: 730px;
+  width: 710px;
+  height: 710px;
+  border-radius: 50%;
   border-radius: 50%;
   background-color: green;
-  box-shadow: 10px 20px 30px rgb(3, 154, 3);
+  box-shadow: 5px 5px 30px 50px rgb(3, 46, 3);
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 .cont15 {
-  width: 720px;
-  height: 720px;
+  width: 700px;
+  height: 700px;
+  border-radius: 50%;
   border-radius: 50%;
   background-color: green;
-  box-shadow: 10px 20px 30px rgb(3, 92, 3);
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-.cont16 {
-  width: 710px;
-  height: 710px;
-  border-radius: 50%;
-  background-color: green;
-  box-shadow: 10px 20px 30px rgb(3, 95, 3);
+  box-shadow: 5px 5px 30px rgb(2, 30, 2);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -233,41 +212,58 @@
   width: 700px;
   height: 700px;
   border-radius: 50%;
+  border-radius: 50%;
   background-color: green;
-  box-shadow: 10px 20px 30px rgb(3, 101, 3);
+  box-shadow: 5px 5px 30px rgb(2, 23, 2);
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-.cont17 {
+.cont16 {
   width: 690px;
   height: 690px;
   border-radius: 50%;
+  border-radius: 50%;
   background-color: green;
-  box-shadow: 10px 20px 30px rgb(3, 114, 3);
+  box-shadow: 5px 5px 30px rgba(1, 36, 1, 0.807);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.cont17 {
+  width: 680px;
+  height: 680px;
+  border-radius: 50%;
+  background-color: green;
+
+  box-shadow: 0px 0px 30px rgb(2, 29, 2);
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 .cont18 {
-  width: 680px;
-  height: 680px;
+  width: 670px;
+  height: 670px;
+  border-radius: 50%;
   border-radius: 50%;
   background-color: green;
-  box-shadow: 10px 20px 30px rgb(3, 107, 3);
+  box-shadow: 0px 0px 30px rgb(2, 31, 2);
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 .cont19 {
-  width: 670px;
-  height: 670px;
+  width: 660px;
+  height: 660px;
+
   border-radius: 50%;
   background-color: green;
-  box-shadow: 10px 20px 30px rgb(3, 110, 3);
+  box-shadow: 0px 0px 30px rgb(2, 29, 2);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -277,8 +273,81 @@
   width: 660px;
   height: 660px;
   border-radius: 50%;
+
+  background-color: rgb(1, 62, 1);
+  box-shadow: 0px 0px 30px rgb(1, 23, 1);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.cont21 {
+  width: 650px;
+  height: 650px;
+  border-radius: 50%;
+
+  background-color: rgb(4, 60, 4);
+  box-shadow: 0px 0px 30px rgb(1, 23, 1);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.cont22 {
+  width: 640px;
+  height: 640px;
+  border-radius: 50%;
+
   background-color: green;
-  box-shadow: 10px 20px 30px rgb(3, 113, 3);
+  box-shadow: 5px 5px 30px rgb(1, 23, 1);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.cont23 {
+  width: 630px;
+  height: 630px;
+  border-radius: 50%;
+
+  background-color: green;
+  box-shadow: 5px 5px 30px rgb(1, 23, 1);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.cont24 {
+  width: 470px;
+  height: 470px;
+  border-radius: 50%;
+
+  background-color: green;
+  box-shadow: 5px 5px 30px rgb(1, 23, 1);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.cont25 {
+  width: 470px;
+  height: 470px;
+  border-radius: 50%;
+
+  background-color: green;
+  box-shadow: 5px 5px 30px rgb(1, 23, 1);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.cont26 {
+  width: 460px;
+  height: 460px;
+  border-radius: 50%;
+
+  background-color: green;
+  box-shadow: 5px 5px 30px rgb(1, 23, 1);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -287,9 +356,10 @@
 .ball {
   width: 450px;
   height: 450px;
+
   border-radius: 50%;
   background-color: green;
-  box-shadow: 10px 20px 30px rgb(46, 74, 4);
+  box-shadow: 0px 0px 30px rgb(1, 14, 1);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -302,8 +372,9 @@
   align-items: center;
 
   border-radius: 50%;
-  box-shadow: 10px 20px 30px rgb(89, 144, 7);
-  background-color: rgb(4, 53, 4);
+
+  background-color: green;
+  box-shadow: 5px 5px 30px rgb(1, 24, 1);
   animation: 8s duk infinite linear;
 }
 @keyframes duk {
@@ -313,4 +384,62 @@
   to {
     transform: rotate(360deg);
   }
+}
+.greencont {
+  width: 350px;
+  height: 350px;
+  border-radius: 50%;
+  background-color: rgb(1, 8, 1);
+  box-shadow: 0px 0px 30px 20px rgb(9, 64, 5);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.up {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  border-radius: 40px;
+  width: 200px;
+
+  box-shadow: 0px 0px 20px rgb(9, 72, 9);
+  background-color: rgb(1, 11, 1);
+}
+.mid {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  box-shadow: 0px 0px 20px rgb(15, 118, 7);
+  background-color: rgb(2, 30, 2);
+}
+.down {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  border-radius: 40px;
+  width: 200px;
+
+  box-shadow: 0px 0px 20px rgb(8, 84, 4);
+  background-color: rgb(1, 11, 1);
+}
+.duugui {
+  box-shadow: 0px 0px 20px 20px rgb(15, 118, 7);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+
+  background-color: rgb(1, 17, 1);
 }
